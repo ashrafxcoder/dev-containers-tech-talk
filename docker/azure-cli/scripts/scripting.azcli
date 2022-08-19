@@ -1,0 +1,9 @@
+#-------------------------------------------------------------------------------------------------------------
+# Copyright (c) Microsoft Corporation. All rights reserved.
+# Licensed under the MIT License. See https://go.microsoft.com/fwlink/?linkid=2090316 for license information.
+#-------------------------------------------------------------------------------------------------------------
+
+az login
+az account list -o table
+az account set -s 'd45315f6-9ac1-4537-93c2-f526f2d9755f' # xCapcha
+az functionapp list -o table
